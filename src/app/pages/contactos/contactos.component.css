@@ -1,0 +1,43 @@
+h2, p {
+    
+    color: green; /* Color del texto */
+}
+    
+form {
+    max-width: 400px; /* Ancho máximo del formulario */
+    margin: 0 auto; /* Centra el formulario horizontalmente en la página */
+    padding: 20px; /* Espaciado interno del formulario */
+    border: 1px solid #ccc; /* Borde del formulario */
+    border-radius: 5px; /* Borde redondeado */
+    background-color: #f9f9f9; /* Color de fondo del formulario */
+  }
+  
+  label {
+    display: block; /* Muestra las etiquetas en una línea separada */
+    margin-bottom: 10px; /* Espaciado inferior entre las etiquetas */
+    color: green;
+}
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%; /* Ocupa todo el ancho disponible */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 15px; /* Espaciado inferior */
+    border: 1px solid #ccc; /* Borde */
+    border-radius: 3px; /* Borde redondeado */
+  }
+  
+  button {
+    background-color: #007bff; /* Color de fondo del botón */
+    color: #fff; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Sin borde */
+    border-radius: 3px; /* Borde redondeado */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Cambia el color de fondo al pasar sobre el botón */
+  }
+  

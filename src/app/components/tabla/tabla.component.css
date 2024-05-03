@@ -1,0 +1,14 @@
+h1, p {
+    text-align: 'center';
+    color: green;
+}
+.form-group {
+    display: flex; /* Usa Flexbox */
+    align-items: center; /* Centra verticalmente los elementos */
+    margin-bottom: 10px; /* Espaciado inferior entre cada grupo */
+  }
+  
+  .form-group label {
+    flex: 1; /* Ocupa todo el espacio disponible */
+    margin-right: 10px; /* Espaciado a la derecha */
+  }
